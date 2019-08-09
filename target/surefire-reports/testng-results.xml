@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="44345" started-at="2019-07-26T23:40:36Z" finished-at="2019-07-26T23:41:20Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="44345" started-at="2019-07-26T23:40:36Z" finished-at="2019-07-26T23:41:20Z">
+      <class name="com.qa.tests.TestBrowser">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.TestBrowser@380fb434]" name="setup" is-config="true" duration-ms="10301" started-at="2019-07-26T23:40:36Z" finished-at="2019-07-26T23:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckTitle()[pri:0, instance:com.qa.tests.TestBrowser@380fb434]" name="CheckTitle" duration-ms="2624" started-at="2019-07-26T23:41:17Z" finished-at="2019-07-26T23:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTitle -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.qa.tests.TestBrowser@380fb434]" name="OpenBrowser" duration-ms="332" started-at="2019-07-26T23:41:20Z" finished-at="2019-07-26T23:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+      </class> <!-- com.qa.tests.TestBrowser -->
+      <class name="com.qa.tests.ExcelReadTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.ExcelReadTest@668bc3d5]" name="setup" is-config="true" duration-ms="9985" started-at="2019-07-26T23:40:47Z" finished-at="2019-07-26T23:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginWithMultipleUsers(java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.ExcelReadTest@668bc3d5]" name="LoginWithMultipleUsers" duration-ms="7134" started-at="2019-07-26T23:40:57Z" data-provider="ReadData" finished-at="2019-07-26T23:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[y87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithMultipleUsers -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.ExcelReadTest@668bc3d5]" name="setup" is-config="true" duration-ms="7491" started-at="2019-07-26T23:41:05Z" finished-at="2019-07-26T23:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginWithMultipleUsers(java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.ExcelReadTest@668bc3d5]" name="LoginWithMultipleUsers" duration-ms="5307" started-at="2019-07-26T23:41:12Z" data-provider="ReadData" finished-at="2019-07-26T23:41:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eft]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[y79865]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithMultipleUsers -->
+      </class> <!-- com.qa.tests.ExcelReadTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
